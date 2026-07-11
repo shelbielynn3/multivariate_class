@@ -1,0 +1,397 @@
+                    The CORR Procedure
+          6 Variables:    Number of Symptoms   Amount of Activity   Amount of Sleep   Amount of Food Consumed   Appetite   Skin Reaction
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Number of Symptoms             25   2.98316   1.76206  74.57900   0.00000   6.50000
+Amount of Activity             25   1.66708   0.72877  41.67700   0.94100   3.25000
+Amount of Sleep                25   2.00812   0.77963  50.20300   0.95000   3.28600
+Amount of Food Consumed        25   2.23044   0.34890  55.76100   1.28600   2.93700
+Appetite                       25   2.42292   0.90274  60.57300   1.00000   4.09100
+Skin Reaction                  25   1.08000   0.81240  27.00000   0.00000   3.00000
+                         Covariance Matrix                          
+
+                x1        x2        x3        x4        x5        x6
+--------  --------  --------  --------  --------  --------  --------
+x1         3.10486   0.85177   0.35585   0.21186   0.79609  -0.12722
+x2         0.85177   0.53110   0.11182   0.08119   0.34904  -0.21767
+x3         0.35585   0.11182   0.60782   0.04113   0.31176   0.07545
+x4         0.21186   0.08119   0.04113   0.12173   0.23272  -0.08741
+x5         0.79609   0.34904   0.31176   0.23272   0.81494  -0.16158
+x6        -0.12722  -0.21767   0.07545  -0.08741  -0.16158   0.66000
+
+   Pearson Correlation Coefficients, N = 25
+          Prob > |r| under H0: Rho=0
+                  x1        x2        x3        x4        x5        x6
+--------  --------  --------  --------  --------  --------  --------
+x1         1.00000   0.66330   0.25904   0.34461   0.50047  -0.08887
+              .       0.0003    0.2112    0.0916    0.0108    0.6727
+x2         0.66330   1.00000   0.19681   0.31930   0.53055  -0.36766
+            0.0003      .       0.3457    0.1198    0.0064    0.0706
+x3         0.25904   0.19681   1.00000   0.15122   0.44297   0.11912
+            0.2112    0.3457      .       0.4706    0.0266    0.5706
+x4         0.34461   0.31930   0.15122   1.00000   0.73888  -0.30839
+            0.0916    0.1198    0.4706      .       <.0001    0.1337
+x5         0.50047   0.53055   0.44297   0.73888   1.00000  -0.22032
+            0.0108    0.0064    0.0266    <.0001      .       0.2899
+x6        -0.08887  -0.36766   0.11912  -0.30839  -0.22032   1.00000
+            0.6727    0.0706    0.5706    0.1337    0.2899      .
+                                                  Generalized Variance                                                  
+
+  3.1049  0.8518  0.3559  0.2119  0.7961 -0.1272
+  0.8518  0.5311  0.1118  0.0812   0.349 -0.2177
+  0.3559  0.1118  0.6078  0.0411  0.3118  0.0754
+  0.2119  0.0812  0.0411  0.1217  0.2327 -0.0874
+  0.7961   0.349  0.3118  0.2327  0.8149 -0.1616
+ -0.1272 -0.2177  0.0754 -0.0874 -0.1616    0.66
+  0.0059
+
+                                                  Generalized Variance                                                  
+
+                                                The UNIVARIATE Procedure
+                                          Variable:  x1  (Number of Symptoms)
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        2.983160    Sum Observations           74.579000
+Std Deviation               1.762061    Variance                    3.104859
+Skewness                   -0.042771    Kurtosis                   -0.833199
+Uncorrected SS            296.997707    Corrected SS               74.516617
+Coeff Variation            59.066930    Std Error Mean              0.352412
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.983160  Std Deviation  1.762061
+Median    2.813000  Variance       3.104859
+Mode             .  Range          6.500000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.294000
+10%         0.500000
+25% Q1      1.454000
+50% Median  2.813000
+75% Q3      4.235000
+90%         5.167000
+95%         5.231000
+99%         6.500000
+100% Max    6.500000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     4.600000
+Value     0.294000  Value     5.000000
+Value     0.500000  Value     5.167000
+Value     0.800000  Value     5.231000
+Value     0.889000  Value     6.500000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         8.464973566  0.000000011
+Sign                       12  0.000000119
+Signed Rank               300  0.000018228
+
+
+                                                The UNIVARIATE Procedure
+                                          Variable:  x2  (Amount of Activity)
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        1.667080    Sum Observations           41.677000
+Std Deviation               0.728768    Variance                    0.531103
+Skewness                    0.831961    Kurtosis                   -0.710526
+Uncorrected SS             82.225363    Corrected SS               12.746470
+Coeff Variation            43.715243    Std Error Mean              0.145754
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      1.667080  Std Deviation  0.728768
+Median    1.300000  Variance       0.531103
+Mode      1.000000  Range          2.309000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.941000
+1%          0.941000
+5%          1.000000
+10%         1.000000
+25% Q1      1.091000
+50% Median  1.300000
+75% Q3      2.294000
+90%         2.692000
+95%         3.000000
+99%         3.250000
+100% Max    3.250000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.941000  Value     2.556000
+Value     1.000000  Value     2.562000
+Value     1.000000  Value     2.692000
+Value     1.000000  Value     3.000000
+Value     1.000000  Value     3.250000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         11.437657965         0
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                            Variable:  x3  (Amount of Sleep)
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        2.008120    Sum Observations           50.203000
+Std Deviation               0.779626    Variance                    0.607817
+Skewness                   -0.103091    Kurtosis                   -1.431205
+Uncorrected SS            115.401255    Corrected SS               14.587607
+Coeff Variation            38.823684    Std Error Mean              0.155925
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.008120  Std Deviation  0.779626
+Median    2.200000  Variance       0.607817
+Mode      1.000000  Range          2.336000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.950000
+1%          0.950000
+5%          0.999000
+10%         1.000000
+25% Q1      1.077000
+50% Median  2.200000
+75% Q3      2.600000
+90%         3.000000
+95%         3.125000
+99%         3.286000
+100% Max    3.286000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.950000  Value     2.714000
+Value     0.999000  Value     2.819000
+Value     1.000000  Value     3.000000
+Value     1.000000  Value     3.125000
+Value     1.000000  Value     3.286000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         12.878736714         0
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                        Variable:  x4  (Amount of Food Consumed)
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        2.230440    Sum Observations           55.761000
+Std Deviation               0.348897    Variance                    0.121729
+Skewness                   -0.410013    Kurtosis                    1.109847
+Uncorrected SS            127.293059    Corrected SS                2.921494
+Coeff Variation            15.642507    Std Error Mean              0.069779
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.230440  Std Deviation  0.348897
+Median    2.222000  Variance       0.121729
+Mode      2.000000  Range          1.651000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      1.286000
+1%          1.286000
+5%          1.800000
+10%         1.846000
+25% Q1      2.000000
+50% Median  2.222000
+75% Q3      2.455000
+90%         2.667000
+95%         2.727000
+99%         2.937000
+100% Max    2.937000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     1.286000  Value     2.562000
+Value     1.800000  Value     2.571000
+Value     1.846000  Value     2.667000
+Value     1.933000  Value     2.727000
+Value     2.000000  Value     2.937000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         31.964186718         0
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                               Variable:  x5  (Appetite)
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        2.422920    Sum Observations           60.573000
+Std Deviation               0.902738    Variance                    0.814936
+Skewness                    0.050075    Kurtosis                   -0.828081
+Uncorrected SS            166.321987    Corrected SS               19.558454
+Coeff Variation            37.258260    Std Error Mean              0.180548
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.422920  Std Deviation  0.902738
+Median    2.466000  Variance       0.814936
+Mode      1.000000  Range          3.091000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      1.000000
+1%          1.000000
+5%          1.000000
+10%         1.000000
+25% Q1      1.883000
+50% Median  2.466000
+75% Q3      3.000000
+90%         3.666000
+95%         3.749000
+99%         4.091000
+100% Max    4.091000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     1.000000  Value     3.400000
+Value     1.000000  Value     3.572000
+Value     1.000000  Value     3.666000
+Value     1.252000  Value     3.749000
+Value     1.572000  Value     4.091000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         13.419843164         0
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                             Variable:  x6  (Skin Reaction)
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        1.080000    Sum Observations           27.000000
+Std Deviation               0.812404    Variance                    0.660000
+Skewness                    0.860343    Kurtosis                    1.024619
+Uncorrected SS             45.000000    Corrected SS               15.840000
+Coeff Variation            75.222578    Std Error Mean              0.162481
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      1.080000  Std Deviation  0.812404
+Median    1.000000  Variance       0.660000
+Mode      1.000000  Range          3.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      1.000000
+50% Median  1.000000
+75% Q3      1.000000
+90%         2.000000
+95%         3.000000
+99%         3.000000
+100% Max    3.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     2.000000
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     3.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.646940513  0.00000071
+Sign                       10  0.000001907
+Signed Rank               210  0.000088611
+

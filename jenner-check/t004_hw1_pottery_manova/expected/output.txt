@@ -1,0 +1,111 @@
+                         The GLM Procedure                         
+                      Dependent Variable: al                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3       175.61032     58.53677     26.67    <.0001
+Error           22        48.28814      2.19492                    
+
+Root MSE           1.48152    R-Square            0.7843
+Adj R-Sq            0.7549
+
+                      Dependent Variable: fe                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3       134.22162     44.74054     89.88    <.0001
+Error           22        10.95085      0.49777                    
+
+                      Dependent Variable: mg                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3       103.35053     34.45018     49.12    <.0001
+Error           22        15.42961      0.70135                    
+
+                      Dependent Variable: ca                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3         0.20470      0.06823     29.16    <.0001
+Error           22         0.05149      0.00234                    
+
+                      Dependent Variable: na                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3         0.25825      0.08608      9.50    0.0003
+Error           22         0.19929      0.00906                    
+
+                         The GLM Procedure                         
+                      Dependent Variable: al                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3       175.61032     58.53677     26.67    <.0001
+Error           22        48.28814      2.19492                    
+
+Root MSE           1.48152    R-Square            0.7843
+Adj R-Sq            0.7549
+
+                 Contrast Results                  
+
+Contrast        DF  Contrast SS   F Value    Pr > F
+--------  --------  -----------  --------  --------
+C vs I           1      59.9863     27.33    <.0001
+
+   Least Squares Means for site   
+
+Level       LSMean  Standard Error
+--------  --------  --------------
+A          17.3200          0.6626
+C          11.7000          1.0476
+I          18.1800          0.6626
+L          12.5643          0.3960
+
+                      Dependent Variable: fe                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3       134.22162     44.74054     89.88    <.0001
+Error           22        10.95085      0.49777                    
+
+                      Dependent Variable: mg                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3       103.35053     34.45018     49.12    <.0001
+Error           22        15.42961      0.70135                    
+
+                      Dependent Variable: ca                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3         0.20470      0.06823     29.16    <.0001
+Error           22         0.05149      0.00234                    
+
+                      Dependent Variable: na                       
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+site             3         0.25825      0.08608      9.50    0.0003
+Error           22         0.19929      0.00906                    
+
+MANOVA Test Criteria and F Approximations for the Hypothesis of No Overall site Effect
+
+Statistic                   Value   F Value    Num DF    Den DF    Pr > F
+----------------------  ---------  --------  --------  --------  --------
+Wilks' Lambda            0.012301     13.09        15        50    <.0001
+Pillai's Trace           1.553936      4.30        15        60    <.0001
+Hotelling-Lawley Trace  35.438753     39.38        15        50    <.0001
+Roy's Greatest Root     34.161114    136.64         5        20    <.0001
+
+
+  Obs  element     psi      psi_se      m        lower_ci       upper_ci
+-----  -------  ------  ----------  -----  --------------  -------------
+    1  Al        -6.48  1.23953254  4.114  -11.5794368696  -1.3805631304
+    2  Fe        3.703  0.59028468  4.114    1.2745688265   6.1314311735
+    3  Mg        3.181  0.70067266  4.114    0.2984326768   6.0635673232
+    4  Ca        0.269  0.04047446  4.114    0.1024880716   0.4355119284
+    5  Na       -0.004  0.07963125  4.114   -0.3316029625   0.3236029625
+

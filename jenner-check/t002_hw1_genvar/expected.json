@@ -1,0 +1,16 @@
+{
+  "_captured_at": "2026-07-11T06:30:00Z",
+  "_captured_run_id": "r_8692952fe4bd4d78a4215c69b4cb010c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA hw1",
+    "NOTE: Read 25 rows from DATALINES.",
+    "NOTE: Wrote hw1 (25 rows, 6 columns).",
+    "NOTE: PROC CORR data=hw1",
+    "NOTE: PROC IML",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

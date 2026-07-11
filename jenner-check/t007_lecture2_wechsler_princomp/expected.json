@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-11T07:50:00Z",
+  "_captured_run_id": "r_eae832bc30874dbd95b8e87386934a7a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA wechsler",
+    "NOTE: Read 37 rows from DATALINES.",
+    "NOTE: PROC PRINT data=wechsler",
+    "NOTE: PROC PRINCOMP data=wechsler",
+    "NOTE: Analysis based on Covariance Matrix",
+    "NOTE: DATA a",
+    "NOTE: PROC IML",
+    "NOTE: PROC PRINT data=b"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

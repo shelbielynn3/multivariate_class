@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_lecture2_wechsler_princomp",
+  "source_file": "code/Lecture 2 SAS syntax.sas",
+  "source_blob_sha": "7877f01edad459db41b4acff9e127247e58972ce",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "Two sections: PROC PRINCOMP with the COV option (eigenvalues/eigenvectors on the covariance matrix) on the Wechsler subtest data, and the 95%-prediction-ellipse PROC IML module (already self-contained in the source -- hardcoded mu/sigma, no external data). All 37 rows of data/wechsler.txt inlined via DATALINES in place of the original INFILE path. Two edits: `pi=2.d0*arsin(1);` (a Fortran-style double-precision literal, not standard SAS numeric syntax) replaced with the documented `pi=constant('PI');`; and a PROC PRINT of the IML-created ellipse dataset added at the end since the source only fed it to PROC GPLOT, which was dropped as graphics-only."
+}

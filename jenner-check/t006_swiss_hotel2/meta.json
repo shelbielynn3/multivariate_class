@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_swiss_hotel2",
+  "source_file": "code/Lecture 3 SAS syntax Part II.sas",
+  "source_blob_sha": "9b1e4cd37c9c79abc7ea0f229ed3122853154a73",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "Two-sample Hotelling T2 (the hotel2 PROC IML module, pooled variances) and Bartlett's test (PROC DISCRIM pool=test) on the Swiss bank-note data. 15 real + 15 fake rows extracted from data/swiss3.xlsx (same values, read via openpyxl-equivalent XML parsing since PROC IMPORT dbms=xlsx isn't exercised here) and inlined via DATALINES. The two groups are pre-split into swiss_real/swiss_fake DATA steps before PROC IML, rather than using READ ALL VAR{...} WHERE(...) INTO on the combined dataset as the source script does -- filed separately as a regression test; the pre-split keeps this bundle demonstrating genuinely correct, non-missing output."
+}

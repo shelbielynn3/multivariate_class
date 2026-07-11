@@ -1,0 +1,55 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LS changed to 78.
+NOTE: Option TITLE changed to Eigenvalues and Eigenvectors - Wechsler Data.
+NOTE: DATA wechsler
+
+NOTE: Processing inline DATALINES (37 lines)
+
+NOTE: Read 37 rows from DATALINES.
+NOTE: Wrote wechsler (37 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=wechsler
+
+NOTE: PROC PRINT completed: 37 observations printed, 5 variables
+NOTE: PROC PRINCOMP data=wechsler
+
+NOTE: Using Python sklearn version 1.9.0
+NOTE: Eigenvalues of the Correlation Matrix:
+NOTE:   Prin1: Eigenvalue=26.245278  Proportion=0.6845  Cumulative=0.6845
+NOTE:   Prin2: Eigenvalue=6.255366  Proportion=0.1631  Cumulative=0.8476
+NOTE:   Prin3: Eigenvalue=3.931553  Proportion=0.1025  Cumulative=0.9501
+NOTE:   Prin4: Eigenvalue=1.911647  Proportion=0.0499  Cumulative=1.0000
+NOTE: Eigenvectors:
+NOTE:   Variable          Prin1      Prin2      Prin3      Prin4
+NOTE:   info            0.605747   -0.217647   -0.460503    0.611259
+NOTE:   sim             0.604762   -0.495812    0.319676   -0.535015
+NOTE:   arith           0.505134    0.794645    0.334926    0.034689
+NOTE:   pict            0.110336    0.274480   -0.757343   -0.582166
+NOTE: Number of Observations: 37
+NOTE: Analysis based on Covariance Matrix
+NOTE: ODS plot written: princomp_scree.spec.json
+NOTE: ODS plot written: princomp_scores.spec.json
+NOTE: ODS plot written: princomp_pattern.spec.json
+NOTE: PROC PRINCOMP ODS Graphics generated.
+NOTE: PROC PRINCOMP completed.
+NOTE: Option LS changed to 78.
+NOTE: Option TITLE changed to 95% prediction ellipse.
+NOTE: DATA a
+
+
+NOTE: Wrote a (100 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC IML 
+
+
+NOTE: PROC IML elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=b
+
+NOTE: PROC PRINT completed: 10 observations printed, 2 variables

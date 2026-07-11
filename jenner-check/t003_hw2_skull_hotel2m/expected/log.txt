@@ -1,0 +1,101 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA skull
+
+NOTE: Processing inline DATALINES (30 lines)
+
+NOTE: Read 30 rows from DATALINES.
+NOTE: Wrote skull (30 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 78.
+NOTE: Option TITLE changed to Test for Unequal Variances.
+NOTE: Option TITLE2 changed to Bartlett's Test - Skull Size.
+NOTE: PROC DISCRIM data=skull method=Normal pool=Test
+
+NOTE: Using Python sklearn version 1.9.0 for discriminant analysis
+NOTE: Class Frequencies:
+NOTE:   1: 15
+NOTE:   2: 15
+NOTE: Class Means:
+NOTE:   1: 131.4000, 134.0667, 97.7333, 50.2667
+NOTE:   2: 133.0667, 134.0000, 99.1333, 49.9333
+NOTE: Resubstitution Error Rate: 0.2333
+NOTE: Confusion Matrix:
+NOTE:      9    6
+NOTE:      1   14
+NOTE: PROC DISCRIM: 30 observations, 4 variables, method=Normal, pool=Test
+NOTE: Option LS changed to 78.
+NOTE: Option TITLE2 changed to 2-Sample Hotellings T2 - Skull Size (unequal variances).
+NOTE: DATA skull_p1
+
+
+NOTE: Read 30 rows from skull.
+NOTE: Wrote skull_p1 (15 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA skull_p2
+
+
+NOTE: Read 30 rows from skull.
+NOTE: Wrote skull_p2 (15 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC IML 
+
+
+NOTE: PROC IML elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINCOMP data=skull
+
+NOTE: Using Python sklearn version 1.9.0
+NOTE: Eigenvalues of the Correlation Matrix:
+NOTE:   Prin1: Eigenvalue=1.764643  Proportion=0.4412  Cumulative=0.4412
+NOTE:   Prin2: Eigenvalue=1.179622  Proportion=0.2949  Cumulative=0.7361
+NOTE:   Prin3: Eigenvalue=0.771475  Proportion=0.1929  Cumulative=0.9289
+NOTE:   Prin4: Eigenvalue=0.284259  Proportion=0.0711  Cumulative=1.0000
+NOTE: Eigenvectors:
+NOTE:   Variable          Prin1      Prin2      Prin3      Prin4
+NOTE:   Max Breadth    -0.675216    0.213470   -0.004241   -0.706043
+NOTE:   Basibregmatic Height   -0.339001   -0.557541   -0.740677    0.160078
+NOTE:   Basialveolar Length   -0.017964    0.800882   -0.537894    0.262555
+NOTE:   Nasal Height   -0.654858    0.046547    0.402555    0.637921
+NOTE: Number of Observations: 15
+NOTE: Analysis based on Correlation Matrix
+NOTE: ODS plot written: princomp_scree.spec.json
+NOTE: ODS plot written: princomp_scores.spec.json
+NOTE: ODS plot written: princomp_pattern.spec.json
+NOTE: PROC PRINCOMP ODS Graphics generated.
+NOTE: PROC PRINCOMP completed.
+NOTE: DATA mahal_1
+
+
+NOTE: Read 15 rows from pcresult_1.
+NOTE: Wrote mahal_1 (15 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=mahal_1
+
+NOTE: PROC PRINT completed: 15 observations printed, 1 variables
+NOTE: PROC SORT data=mahal_1
+
+NOTE: Read 15 rows from mahal_1.
+NOTE: Wrote mahal_1 (15 rows, 10 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA plotdata_1
+
+
+NOTE: Read 15 rows from mahal_1.
+NOTE: Wrote plotdata_1 (15 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Q-Q plot for Period 1.
+NOTE: PROC GPLOT data=plotdata_1
+
+NOTE: ODS plot written: gplot_basic.spec.json

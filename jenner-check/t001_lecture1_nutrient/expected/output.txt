@@ -1,0 +1,341 @@
+                                                  The MEANS Procedure
+
+ Variable        N            Mean          Std Dev        Minimum          Maximum
+ ----------------------------------------------------------------------------------
+ calcium        25     556.4248000      426.6356813     74.4600000     1927.5000000
+ iron           25      12.2185200        6.3657257      2.9180000       23.1810000
+ protein        25      72.4093200       36.5987379     16.4940000      148.7130000
+ a              25     720.2036000     1469.1742498      0.0000000     7621.5400000
+ c              25      76.2048000       71.8198855      3.5890000      263.0390000
+ ----------------------------------------------------------------------------------
+
+                    The CORR Procedure
+               5 Variables:    calcium   iron   protein   a   c
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+calcium         25  556.42480   426.63568  13910.62000  74.46000  1927.50000
+iron            25   12.21852     6.36573    305.46300   2.91800    23.18100
+protein         25   72.40932    36.59874   1810.23300  16.49400   148.71300
+a               25  720.20360  1469.17425  18005.09000   0.00000  7621.54000
+c               25   76.20480    71.81989   1905.12000   3.58900   263.03900
+                             Covariance Matrix                             
+
+               calcium        iron      protein              a            c
+--------  ------------  ----------  -----------  -------------  -----------
+calcium   182018.00455  1490.01179   7996.77718    70364.19194   6383.22678
+iron        1490.01179    40.52246    193.67378     3897.34027    283.55508
+protein     7996.77718   193.67378   1339.46761    11196.14881   1124.00759
+a          70364.19194  3897.34027  11196.14881  2158472.97614  36792.32725
+c           6383.22678   283.55508   1124.00759    36792.32725   5158.09595
+
+   Pearson Correlation Coefficients, N = 25
+          Prob > |r| under H0: Rho=0
+             calcium      iron   protein         a         c
+--------  --------  --------  --------  --------  --------
+calcium    1.00000   0.54864   0.51214   0.11226   0.20832
+              .       0.0045    0.0089    0.5932    0.3176
+iron       0.54864   1.00000   0.83130   0.41672   0.62022
+            0.0045      .       <.0001    0.0382    0.0009
+protein    0.51214   0.83130   1.00000   0.20822   0.42762
+            0.0089    <.0001      .       0.3179    0.0330
+a          0.11226   0.41672   0.20822   1.00000   0.34869
+            0.5932    0.0382    0.3179      .       0.0876
+c          0.20832   0.62022   0.42762   0.34869   1.00000
+            0.3176    0.0009    0.0330    0.0876      .
+  182018.0046    1490.0118    7996.7772   70364.1919    6383.2268
+    1490.0118      40.5225     193.6738    3897.3403     283.5551
+    7996.7772     193.6738    1339.4676   11196.1488    1124.0076
+   70364.1919    3897.3403   11196.1488 2158472.9761   36792.3272
+    6383.2268     283.5551    1124.0076   36792.3272     5158.096
+10023023795137634304
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  calcium
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                      556.424800    Sum Observations        13910.620000
+Std Deviation             426.635681    Variance               182018.004551
+Skewness                    1.600282    Kurtosis                    3.248467
+Uncorrected SS        12108646.060600    Corrected SS          4368432.109224
+Coeff Variation            76.674455    Std Error Mean             85.327136
+
+            Basic Statistical Measures            
+
+Location              Variability                 
+--------  ----------  -------------  -------------
+Mean      556.424800  Std Deviation     426.635681
+Median    460.520000  Variance       182018.004551
+Mode               .  Range            1853.040000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min        74.460000
+1%            74.460000
+5%            84.390000
+10%           86.110000
+25% Q1       280.310000
+50% Median   460.520000
+75% Q3       607.580000
+90%         1131.790000
+95%         1227.580000
+99%         1927.500000
+100% Max    1927.500000
+
+           Extreme Observations            
+
+Lowest                Highest              
+--------  ----------  --------  -----------
+Value      74.460000  Value      858.260000
+Value      84.390000  Value     1046.190000
+Value      86.110000  Value     1131.790000
+Value     181.210000  Value     1227.580000
+Value     232.620000  Value     1927.500000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         6.521076698  0.00000096
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  iron
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                       12.218520    Sum Observations          305.463000
+Std Deviation               6.365726    Variance                   40.522464
+Skewness                    0.127843    Kurtosis                   -1.163023
+Uncorrected SS           4704.844909    Corrected SS              972.539134
+Coeff Variation            52.098992    Std Error Mean              1.273145
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      12.218520  Std Deviation   6.365726
+Median    12.762000  Variance       40.522464
+Mode              .  Range          20.263000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       2.918000
+1%           2.918000
+5%           3.348000
+10%          3.526000
+25% Q1       6.838000
+50% Median  12.762000
+75% Q3      16.810000
+90%         21.517000
+95%         21.638000
+99%         23.181000
+100% Max    23.181000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     2.918000  Value     18.919000
+Value     3.348000  Value     20.961000
+Value     3.526000  Value     21.517000
+Value     4.113000  Value     21.638000
+Value     4.801000  Value     23.181000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         9.59711472  0.000000001
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  protein
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                       72.409320    Sum Observations         1810.233000
+Std Deviation              36.598738    Variance                 1339.467614
+Skewness                    0.461023    Kurtosis                   -0.772454
+Uncorrected SS         163224.963299    Corrected SS            32147.222727
+Coeff Variation            50.544236    Std Error Mean              7.319748
+
+          Basic Statistical Measures           
+
+Location             Variability               
+--------  ---------  -------------  -----------
+Mean      72.409320  Std Deviation    36.598738
+Median    64.156000  Variance       1339.467614
+Mode              .  Range           132.219000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       16.494000
+1%           16.494000
+5%           27.069000
+10%          28.299000
+25% Q1       45.785000
+50% Median   64.156000
+75% Q3      103.844000
+90%         125.557000
+95%         133.082000
+99%         148.713000
+100% Max    148.713000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value     16.494000  Value     111.316000
+Value     27.069000  Value     116.418000
+Value     28.299000  Value     125.557000
+Value     28.563000  Value     133.082000
+Value     42.215000  Value     148.713000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         9.892324738  0.000000001
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                                                The UNIVARIATE Procedure
+                                                      Variable:  a
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                      720.203600    Sum Observations        18005.090000
+Std Deviation            1469.174250    Variance              2158472.976141
+Skewness                    4.663680    Kurtosis                   22.662101
+Uncorrected SS        64770682.063700    Corrected SS          51803351.427376
+Coeff Variation           203.994294    Std Error Mean            293.834850
+
+            Basic Statistical Measures             
+
+Location              Variability                  
+--------  ----------  -------------  --------------
+Mean      720.203600  Std Deviation     1469.174250
+Median    418.030000  Variance       2158472.976141
+Mode               .  Range             7621.540000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min         0.000000
+1%             0.000000
+5%             6.480000
+10%           28.580000
+25% Q1       195.810000
+50% Median   418.030000
+75% Q3       623.320000
+90%         1029.200000
+95%         1119.590000
+99%         7621.540000
+100% Max    7621.540000
+
+           Extreme Observations            
+
+Lowest                Highest              
+--------  ----------  --------  -----------
+Value       0.000000  Value      740.270000
+Value       6.480000  Value      792.230000
+Value      28.580000  Value     1029.200000
+Value      78.490000  Value     1119.590000
+Value     165.680000  Value     7621.540000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         2.451048948  0.021907444
+Sign                       12  0.000000119
+Signed Rank               300  0.000018228
+
+
+                                                The UNIVARIATE Procedure
+                                                      Variable:  c
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                       76.204800    Sum Observations         1905.120000
+Std Deviation              71.819885    Variance                 5158.095952
+Skewness                    1.195076    Kurtosis                    0.678854
+Uncorrected SS         268973.591418    Corrected SS           123794.302842
+Coeff Variation            94.245881    Std Error Mean             14.363977
+
+          Basic Statistical Measures           
+
+Location             Variability               
+--------  ---------  -------------  -----------
+Mean      76.204800  Std Deviation    71.819885
+Median    53.576000  Variance       5158.095952
+Mode              .  Range           259.450000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min        3.589000
+1%            3.589000
+5%            8.404000
+10%          10.645000
+25% Q1       21.692000
+50% Median   53.576000
+75% Q3      105.937000
+90%         172.804000
+95%         224.688000
+99%         263.039000
+100% Max    263.039000
+
+          Extreme Observations           
+
+Lowest               Highest             
+--------  ---------  --------  ----------
+Value      3.589000  Value     155.455000
+Value      8.404000  Value     158.986000
+Value     10.645000  Value     172.804000
+Value     13.050000  Value     224.688000
+Value     14.585000  Value     263.039000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         5.305271617  0.000019222
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+

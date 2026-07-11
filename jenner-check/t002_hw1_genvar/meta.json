@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_hw1_genvar",
+  "source_file": "code/Raposo_PHC7719_HW1.sas",
+  "source_blob_sha": "fdfb4438970cb0034ead1b2c6c3ba024632bc2c9",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "Homework 1: PROC CORR (Pearson + covariance), the generalized-variance PROC IML module, and PROC UNIVARIATE histograms on the HW1Q3 symptom/activity data. 25 rows from data/HW1Q3.DAT inlined via DATALINES in place of the original INFILE path. VAR _all_ was replaced with the explicit variable list (x1-x6) in the CORR/UNIVARIATE steps -- Jenner does not yet expand the _ALL_ keyword the way SAS 9.4 documents it, filed separately as a regression test; substituting the explicit list keeps this bundle demonstrating genuinely correct, working output rather than the keyword gap."
+}
