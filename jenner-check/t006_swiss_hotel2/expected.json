@@ -1,0 +1,16 @@
+{
+  "_captured_at": "2026-07-11T07:30:00Z",
+  "_captured_run_id": "r_a8766a25fc9a440194ccdf6387a00357",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA swiss",
+    "NOTE: Read 30 rows from DATALINES.",
+    "NOTE: DATA swiss_real",
+    "NOTE: DATA swiss_fake",
+    "NOTE: PROC IML",
+    "NOTE: PROC DISCRIM data=swiss method=Normal pool=Test"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

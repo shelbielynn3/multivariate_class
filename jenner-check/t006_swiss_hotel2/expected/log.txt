@@ -1,0 +1,51 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LS changed to 78.
+NOTE: DATA swiss
+
+NOTE: Processing inline DATALINES (30 lines)
+
+NOTE: Read 30 rows from DATALINES.
+NOTE: Wrote swiss (30 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA swiss_real
+
+
+NOTE: Read 30 rows from swiss.
+NOTE: Wrote swiss_real (15 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA swiss_fake
+
+
+NOTE: Read 30 rows from swiss.
+NOTE: Wrote swiss_fake (15 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to 2-Sample Hotellings T2 - Swiss Bank Notes.
+NOTE: PROC IML 
+
+
+NOTE: PROC IML elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 78.
+NOTE: Option TITLE changed to Bartlett's Test - Swiss Bank Notes.
+NOTE: PROC DISCRIM data=swiss method=Normal pool=Test
+
+NOTE: Using Python sklearn version 1.9.0 for discriminant analysis
+NOTE: Class Frequencies:
+NOTE:   fake: 15
+NOTE:   real: 15
+NOTE: Class Means:
+NOTE:   fake: 214.9933, 130.3467, 130.3000, 10.1000, 11.3800, 139.9133
+NOTE:   real: 215.0133, 129.9800, 129.8733, 8.2733, 10.2000, 141.6600
+NOTE: Resubstitution Error Rate: 0.0000
+NOTE: Confusion Matrix:
+NOTE:     15    0
+NOTE:      0   15
+NOTE: PROC DISCRIM: 30 observations, 6 variables, method=Normal, pool=Test

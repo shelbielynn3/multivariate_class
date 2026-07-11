@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_hw2_skull_hotel2m",
+  "source_file": "code/Raposo_PHC7719_HW2.sas",
+  "source_blob_sha": "47dd5ac19789d5560ac13673f59f6d922f0b22a3",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "Homework 2: Bartlett's test (PROC DISCRIM pool=test), the two-sample Hotelling T2 for unequal variances (the hotel2m PROC IML module), and the %qqplots macro (run for period 1 only, to keep the bundle small) on the skull-measurement data. 15 rows each from periods 1 and 2 of data/HW2skull.txt inlined via DATALINES in place of the original INFILE path. Two substitutions from the source: (1) an explicit `quit;` after `run hotel2m;`, since Jenner's implicit end-of-PROC-IML-step detection does not fire when the following step is a PROC wrapped in a %MACRO definition; (2) the two groups are pre-split into skull_p1/skull_p2 DATA steps before PROC IML rather than using READ ALL VAR{...} WHERE(...) INTO on the combined dataset, since that construct silently returns missing/zero values. Both filed separately as regression tests. The substitutions keep this bundle demonstrating genuinely correct, complete output."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_hw1_pottery_manova",
+  "source_file": "code/Lecture4_Practice.sas",
+  "source_blob_sha": "2c384089bbe8d671530230cb249a495933b7cc10",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "MANOVA on the pottery chemical-composition data: PROC GLM with a CLASS/MODEL/CONTRAST/ESTIMATE/LSMEANS/MANOVA block, followed by the simultaneous-CI DATA step that already used inline DATALINES in the source. All 26 rows of data/pottery.txt inlined via DATALINES in place of the original INFILE path (the original file is small enough to use in full). Added a PROC PRINT of the intervals dataset at the end so the bundle's listing shows the computed confidence intervals -- the source script computed them but never printed them."
+}

@@ -1,0 +1,16 @@
+{
+  "_captured_at": "2026-07-11T06:20:00Z",
+  "_captured_run_id": "r_82fe3399431044cb92f1ce7ab87e3d42",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA nutrient",
+    "NOTE: Read 25 rows from DATALINES.",
+    "NOTE: Wrote nutrient (25 rows, 6 columns).",
+    "NOTE: PROC MEANS",
+    "NOTE: PROC CORR data=nutrient",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-11T06:55:00Z",
+  "_captured_run_id": "r_0a61d97a301d4cd0a8bdde75c31fa367",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA pottery",
+    "NOTE: Read 26 rows from DATALINES.",
+    "NOTE: PROC GLM data=pottery",
+    "NOTE: DATA intervals",
+    "NOTE: PROC PRINT data=intervals"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

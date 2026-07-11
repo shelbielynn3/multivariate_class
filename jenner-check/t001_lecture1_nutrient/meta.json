@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_lecture1_nutrient",
+  "source_file": "code/Lecture 1 SAS syntax.sas",
+  "source_blob_sha": "ad1cca97533bd3be9725aca257ca8d733816c1e3",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "Descriptive multivariate stats (PROC MEANS/CORR/IML genvar/UNIVARIATE) on the nutrient data; 25 rows from data/nutrient.txt inlined via DATALINES in place of the original INFILE path. Graphics-only steps (PROC G3D, PROC SGPLOT) trimmed since the statistical core is what the bundle tests. Logic and PROC options otherwise unchanged."
+}

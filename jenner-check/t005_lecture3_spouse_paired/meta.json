@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_lecture3_spouse_paired",
+  "source_file": "code/Lecture 3 Part I SAS syntax.sas",
+  "source_blob_sha": "b38dff3b4e87649e2b366065ec7f7a34d2a75ff5",
+  "source_commit": "372f03354911dfc9516f9930c50c473c0b757a78",
+  "notes": "Paired Hotelling's T-Square (the hotel PROC IML module on husband/wife differences) and the follow-up one-at-a-time/simultaneous/Bonferroni confidence intervals on the spouse survey data. All 30 rows of data/spouse.txt inlined via DATALINES in place of the original INFILE path (the file is small enough to use in full). Added an explicit `quit;` after `run hotel;` for a clean step boundary. Note: the stacked spouse2 dataset (120 rows from 30 x 4 OUTPUT calls) is truncated to 100 rows by the bundle's OBS=100 cap, so the 4th variable group's interval is computed on n=10 instead of n=30 -- expected behavior given the row-multiplying DATA step, not a defect."
+}
